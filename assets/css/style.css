@@ -1,0 +1,67 @@
+.row {
+    margin: 0px !important;
+}
+
+.form-group,
+.form-control {
+    /*min-height: 50px;*/
+    /*margin: 0 !important;*/
+}
+
+#post-body-content {
+    margin: 0;
+}
+
+
+/* Custom */
+
+#poststuff h2 {
+    padding: 0;
+}
+
+#edit-slug-box {
+    padding: 0;
+}
+
+.post-type-cities #wpfooter {
+    position: relative;
+}
+
+.pad-left {
+    text-align: left !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.city-container .control-label {
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#menu_0 div,
+.append-here div,
+.menus div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.city-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/*.post-type-cities #title,
+.post-type-cities #title-prompt-text,
+.post-type-restaurants #title,
+.post-type-restaurants #title-prompt-text,
+.ui-sortable-handle {
+    display: none !important;
+}*/
+
+.remove,
+.copy {
+    border-radius: 100%;
+    border: 1px solid #adadad;
+}

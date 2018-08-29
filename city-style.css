@@ -1,0 +1,504 @@
+@charset "UTF-8";
+/* CSS Document */
+	
+       body {
+         	color: #fff !important;
+         	min-height: 1530px;  
+		 	position:relative; 
+	     	margin-bottom: 20px; 
+	     }
+		
+	   .body{
+		   	min-height: 1000px;
+		  	margin-bottom: 21%; 
+		}
+
+       .navbar-nav>li{
+           	 margin-left:30px !important;
+        }
+
+       .main-navigation .current-menu-item > a {
+         	 text-transform: uppercase;
+         	 text-decoration: underline;
+         }
+		
+	    #site-title {
+		     display: inline;
+		}
+		
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; 
+	
+}
+
+
+		#site-title h1{
+			
+			font-size: 36px; 
+			font-family: 'Lily Script One', cursive;
+			float:left; 
+			padding-left: 3%; 
+			color: white; 
+		}
+
+           #site-title h1 a{		
+
+			 color: white; 	
+		}
+	
+		#site-title h1:hover{
+			
+			color: #ef9d1b;
+			cursor:pointer; 		
+		}
+			
+        .row{
+            margin-top:50px !important;
+			
+        }
+     
+        .wp-post-image{
+            width:20%;
+            height: auto; 
+			float:left; 
+        }
+        .image-logo{
+            width: 100%;
+        }
+        .rs-section{
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+        .weekday-nav {
+            list-style: none;
+            font-weight: bold;
+        }
+        .weekday-nav li a {
+            color: #fff;
+           
+        }
+        .day-active a {
+            border-bottom: 5px solid #fff;
+            padding-bottom: 10px !important;
+        }
+        .day-inactive a {
+            color: #646464 !important;
+        }
+        .title-for-restaurant {
+            font-weight: bold;
+        }
+        .restaurant-cards {
+            background: #fff;
+            height: 530px;
+            color: #000;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+         .restaurant-cards .rs-section img {
+             max-width: 100%;
+             max-height: 70px;
+             height: 70px;
+			
+			   /* max-width: 290px;
+                  max-height: 80px;
+                  height: 70px*/		
+        }
+
+        .card-image {
+           	 margin: 0;
+             padding: 0;
+        }
+        .image-container {
+            /*border: 1px solid #fe00ff;*/
+        }
+       .card-menu, .card-menu div {
+    
+        	font-size: 13px;
+        	min-height: 205px;
+        	max-height: 205px;
+			margin: auto;
+       		margin-top: 5%;
+       	 	margin-bottom: 5%;
+        }
+        .general-text {
+            margin: 0;
+            padding: 10px 0;
+			height: 80px; 
+            font-size: 12px;
+            font-style: italic;
+            border-top: 1px solid #000;
+			text-align: center; 
+			
+        }
+        .card-image {
+            text-align: center;
+        }
+        .card-image h3 {
+            margin-top: 0;
+        }
+        .address {
+            padding: 8px 0;
+            border-top: 1px solid #000;
+            font-weight: bold;
+			font-size: 13px; 
+			text-align: center;
+        }
+        .address a {
+            color: #000;
+            text-decoration: none;
+			font-size: 13px; 
+        }
+		
+		.sow-image-container {
+            text-align: center;
+          }
+		
+		img.so-widget-image {
+         	max-width: 220px; 
+
+			height: auto;
+		 	padding-top: 0.5%;
+         }
+		
+		.so-widget-sow-image.so-widget-sow-image-default-642c5433d908{
+			background-color:white; 
+			color:black; 
+			position:fixed; 
+			padding: 2; 
+			right: 0;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+			padding-bottom:1.6%; 
+			padding-top: 0.7%;
+			
+		
+		}
+
+		.adserver-corner .textwidget{
+	text-align: center;
+}
+
+.small_ad_text p {
+    margin: 2px !important;
+    color: #fff;
+    font-size: 9px;
+    line-height: 10px;
+    font-weight: bold;
+}
+.adserver-corner{
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 0px 0px;
+}
+.adserver-corner .mobile{
+	display:none;
+}
+		
+		.so-widget-sow-image.so-widget-sow-image-default-642c5433d908 h2{
+			
+			
+			font-family: 'Lato', sans-serif;
+       		font-weight: 300;
+        	text-align: center;
+        	margin-bottom: 0px;	
+         	font-size: 13px; 
+		 	padding-bottom: 0.3%; 
+			 
+		}
+		
+		h2.widget-title {
+			
+        	display: none;
+        }
+
+       .col-md-12{
+	
+	    	min-height: 0; 
+        } 
+
+/*.wp-post-image {
+    width: 100%;
+    height: auto; 
+}
+
+
+.sow-image-container {
+    text-align: center;
+}*/
+
+/*Responsive style*/
+
+   	  @media only screen and (max-width: 1200px) {
+           nav{
+                margin-top:20px !important;
+           }
+
+           ul.weekday-nav{
+                padding-left: 0px !important;
+           }
+        }
+
+
+
+	  @media only screen and (min-width: 1200px) {
+
+
+		.title-for-restaurant{
+
+			font-size: 36px; 
+		}
+		 
+		 
+		 ul.navbar-nav.weekday-nav {
+    
+			 font-size: 15px; 
+			 
+		 }
+		 
+		 .general-text {
+ 
+   			 height: 97px;
+		 }
+		 
+		 .card-menu, .card-menu div {
+    
+        	font-size: 14px;
+        	min-height: 220px;
+        	max-height: 220px;
+			margin: auto;
+       		margin-top: 5%;
+       	 	margin-bottom: 5%;
+			 padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+        	
+        
+
+
+      }
+
+      }
+
+
+     @media only screen and (max-width: 768px) {
+          li.nav-item{
+            text-align: center;
+            padding: 7px;
+          }
+		 
+		 ul.navbar-nav.weekday-nav {
+    		float: left;
+   			 display: inline-block;
+			 font-size: 13px;  
+		 }
+		  li.nav-item {
+   			 text-align: center;
+    		 padding: 0px;
+    		 float: left;
+
+			}
+		 
+		 .title-for-restaurant{
+
+			font-size: 30px; 
+		}
+		 
+		  .col-xs-6 {
+  		  width: 100%;
+			}
+		 
+		   .col-xs-6 .restaurant-introduction{
+    		width: 100%;
+			}
+		 
+		   .col-lg-6.col-md-6.col-xs-6.restaurant-introduction.gen-left
+		   {width: 100%;
+			}
+		 
+		   .card-menu, .card-menu div {
+    
+        		min-height: 190px;
+        		max-height: 190px;
+			   padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+		
+        }
+			
+        }
+
+
+     @media only screen and (max-width:1000px) {
+
+
+      			.general-text {
+					height: 105px;
+	
+		 }
+		 
+		  .card-menu, .card-menu div {
+    
+        		min-height: 185px;
+        		max-height: 185px;
+			  
+			  padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+
+		}
+		 @media only screen and (max-width:1000px) {
+			 .adserver-corner .non-mobile img{
+				 width: 100%;
+				 height: auto;
+			 }
+			 
+			 .adserver-corner{
+				 width: 100%;
+			 }
+			 
+		 }
+		 
+     @media only screen and (max-width:600px) {
+
+
+      			.general-text {
+					height: 75px;
+	
+		 }
+		 
+		  .card-menu, .card-menu div {
+    
+        		min-height: 170px;
+        		max-height: 170px;
+			  
+			  padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+
+		}
+		 }
+		 
+		  @media only screen and (max-width:760px) {
+
+
+      			.general-text {
+					height: 80px;
+	
+		 }
+		 
+		  .card-menu, .card-menu div {
+    
+        		min-height: 180px;
+        		max-height: 180px;
+			  padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+
+		}
+				
+				
+
+         @media only screen and (max-width: 740px) {
+	 	 		.card-menu, .card-menu div {
+    
+        		min-height: 165px;
+        		max-height: 165px;
+					padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+        }
+			 .adserver-corner .mobile{
+				 display: block
+			 }
+			 .adserver-corner{
+				 width: 320px;
+			 }
+			 .adserver-corner .non-mobile{
+				 display: none;
+			 }
+		}
+
+
+   		@media only screen and (max-width: 502px) {
+     	  
+			   .card-menu, .card-menu div {
+    
+        		min-height: 200px;
+        		max-height: 200px;
+				   padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+		
+		 }
+			}
+
+
+        @media only screen and (max-width: 402px) {
+          .wp-post-image{
+            /* width: 100% !important; */
+          }
+		 #site-title h1{
+		 	font-size: 27px;
+		 }
+		  .title-for-restaurant{
+
+			font-size: 25px; 
+		}
+		 
+		 	 
+		 	 ul.navbar-nav.weekday-nav {
+    		 float: left;
+   			 display: inline-block;
+			 font-size: 13px;  
+			 margin-left: 1%;
+		 }
+		 
+	 
+		 	.navbar-nav>li {
+   			 margin-left: 15px !important;
+			}
+			
+			.card-menu, .card-menu div {
+    
+        	min-height: 188px;
+        	max-height: 188px;
+				padding-left: 5px !important;
+		padding-right: 5px!important;
+        }
+ .card-menu ul {
+    padding-left: 12px !important;
+		
+		 }
+			
+			.general-text {
+					height: 99px; 
+				
+			
+	
+        	}
+
+			@media only screen and (max-width: 325px) {
+         
+				.general-text {
+					height: 99px; 
+				
+				}}
+
+  
+
